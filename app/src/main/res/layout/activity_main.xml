@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Encabezado Marca -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JOYERÍA DALA"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#D4AF37"
+                android:letterSpacing="0.25" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LUXURY JEWELRY &amp; FINE ATELIER"
+                android:textSize="10sp"
+                android:textColor="#888888"
+                android:letterSpacing="0.2"
+                android:layout_marginTop="4dp" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                android:background="#D4AF37"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+        <!-- Título Sección -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COLECCIONES EXCLUSIVAS"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#CCCCCC"
+            android:letterSpacing="0.15"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Tarjeta 1: Anillos -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#1A1A1A"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Colección Anillos de Compromiso"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ORO 18K"
+                    android:textSize="9sp"
+                    android:textStyle="bold"
+                    android:textColor="#D4AF37"
+                    android:background="#2A2415"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diseños solitarios, monturas en diamante y esmeraldas colombianas certificadas."
+                android:textColor="#999999"
+                android:textSize="12sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnAnillos"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="VER PIEZAS Y PRECIOS"
+                android:textColor="#121212"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:backgroundTint="#D4AF37" />
+        </LinearLayout>
+
+        <!-- Tarjeta 2: Cadenas y Pulseras -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#1A1A1A"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cadenas, Tejidos &amp; Pulseras"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ITALIANO"
+                    android:textSize="9sp"
+                    android:textStyle="bold"
+                    android:textColor="#D4AF37"
+                    android:background="#2A2415"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tejidos italianos, cadenas de eslabones pulidos y pulseras personalizadas."
+                android:textColor="#999999"
+                android:textSize="12sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnCadenas"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="EXPLORAR CADENAS"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:backgroundTint="#2D2D2D" />
+        </LinearLayout>
+
+        <!-- Tarjeta 3: Topos y Aretes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#1A1A1A"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Topos, Aretes &amp; Candongas"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DIAMANTES"
+                    android:textSize="9sp"
+                    android:textStyle="bold"
+                    android:textColor="#D4AF37"
+                    android:background="#2A2415"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piezas de alta joyería en oro blanco, amarillo y rosado con cierres de seguridad."
+                android:textColor="#999999"
+                android:textSize="12sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnTopos"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="VER ARETES Y TOPOS"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08"
+                android:backgroundTint="#2D2D2D" />
+        </LinearLayout>
+
+        <!-- Botón Asesoría -->
+        <Button
+            android:id="@+id/btnVerCatalogo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="SOLICITAR DISEÑO A MEDIDA"
+            android:textColor="#D4AF37"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"
+            android:backgroundTint="#1F1A0F"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Pie de página -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joyería Dala Mobile Atelier v1.0 — ADSO SENA"
+            android:textSize="10sp"
+            android:textColor="#555555" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desarrollado por Samuel Alexander Osorio Arias"
+            android:textSize="10sp"
+            android:textColor="#444444"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+</ScrollView>
